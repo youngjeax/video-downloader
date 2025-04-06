@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpinXOI - Video Downloader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h2>SpinXOI</h2>
+            
+        </div>
+        <div class="header-right">
+            <div class="language-switcher">
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 data-translate="heading">Video Downloader 🎬</h1>
+
+       <!-- Download Form Section (Corrected) -->
+<div class="card">
+    <form method="POST" action="http://192.168.43.147:5000">
+        <div class="input-group">
+            <i class="fas fa-link icon"></i>
+            <input type="url" name="url" 
+                   data-translate="placeholder" 
+                   placeholder="Paste Instagram Reel link here..." 
+                   required>
+        </div>
+        <button type="submit">
+            <i class="fas fa-download"></i> 
+            <span data-translate="download">Download Now</span>
+        </button>
+    </form>
+</div>
+
+        <!-- Platform Features -->
+        <div class="features">
+            <div class="feature-box" style="--brand-color: #E1306C">
+                <i class="fab fa-instagram"></i>
+                <h3 data-translate="instagram">Instagram</h3>
+                <p data-translate="instagram_desc">Download Reels, Posts & Stories</p>
+            </div>
+            
+            <div class="feature-box" style="--brand-color: #FF0000">
+                <i class="fab fa-youtube"></i>
+                <h3 data-translate="youtube">YouTube</h3>
+                <p data-translate="youtube_desc">Shorts & Videos Download</p>
+            </div>
+            
+            <div class="feature-box" style="--brand-color: #000000">
+                <i class="fab fa-tiktok"></i>
+                <h3 data-translate="tiktok">TikTok</h3>
+                <p data-translate="tiktok_desc">Save TikTok Videos</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instagram Reels Info Section -->
+    <div class="info-card">
+        <h2 data-translate="reels_heading">What is Instagram Reels?</h2>
+        <p data-translate="reels_text"><strong>Instagram Reels</strong> is Instagram's short-form video feature...</p>
+        
+        <div class="divider"></div>
+        
+        <h3 data-translate="why_us">Why Choose Our Instagram Reels Downloader?</h3>
+        <ul class="features-list">
+            <li><i class="fas fa-bolt"></i> <span data-translate="feature1">Instant download with one click</span></li>
+            <li><i class="fas fa-shield-alt"></i> <span data-translate="feature2">100% Safe & No login required</span></li>
+            <li><i class="fas fa-hd"></i> <span data-translate="feature3">Original quality preservation</span></li>
+            <li><i class="fas fa-user-lock"></i> <span data-translate="feature4">Download from private accounts</span></li>
+            <li><i class="fas fa-mobile-alt"></i> <span data-translate="feature5">Mobile-friendly interface</span></li>
+        </ul>
+
+        <!-- Copyright Section -->
+        <div class="copyright-notice">
+            <p>© 2025 SpinXOI. All rights reserved.<br>
+            <span data-translate="copyright">Content is property of their respective owners</span>.</p>
+        </div>
+    </div>
